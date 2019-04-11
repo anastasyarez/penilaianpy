@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import os
 #Tugas Praktikum Konsep Teknologi
 #author: Anastasyarez
 
@@ -113,9 +114,9 @@ def lihat():
         plt.title('Grafik Nilai')
         # plt.legend()
         plt.show()
-
-    x = input("Silakan input apa saja untuk kembali ke menu...")
+    
     print("----------------------------------------------------------")
+    os.system("PAUSE")
     print("Terima kasih telah menggunakan layanan input nilai~\n")
 
 pilih = 0
